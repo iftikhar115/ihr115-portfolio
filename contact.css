@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff08a0, #ff5c00);
+}
+
+.navbar {
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    height: 49px;
+    width: 70px;
+    margin-left: 3px;
+    border-radius: 40%;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    margin: 15px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: rgb(179, 237, 245);
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 250px;
+
+    border-radius: 10px;
+}
+
+.search-bar input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    margin-left: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.search-bar button {
+    height: 30px;
+    width: 50px;
+    border: none;
+    background-color: wheat;
+    color: rgb(7, 1, 1);
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.box {
+    height: 200px;
+    width: 250px;
+    background: linear-gradient(to right, #00c9ff, #13721c);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+/* Inner box */
+.box h1 {
+    background: linear-gradient(to right, #bb0a3f, #4a00e0);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Hover */
+.box:hover {
+    background: linear-gradient(to right, #4be22d, #e0005d);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #043b4b, #13721c);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.box1 a {
+    margin: 10px;
+    /* REDUCED: Kam margin */
+    padding: 10px 20px;
+    /* IMPROVED: Better padding */
+    background: linear-gradient(to right, #e22d2d, #e09200);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.box1 a:hover {
+    background: linear-gradient(to right, #26b808, #6a00a8);
+    transform: translateY(-3px);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px;
+}
+
+.footer a {
+    color: #eef1ee;
+    text-decoration: none;
+    gap: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
